@@ -1,0 +1,16 @@
+ol {
+  color: red;
+}
+ul {
+  color: green;
+}
+ol.classBlack {
+  color: black;
+}
+.classBlack {
+  color: gray;
+}
+
+ol.classBlack li#hola {
+  color: blue;
+}
