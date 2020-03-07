@@ -5,6 +5,9 @@ p#a {
   color: green;
   font-size: 120%;
 }
+.span {
+  color: green;
+}
 h1 {
   color: black;
   text-align: center;

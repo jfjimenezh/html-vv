@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="css/aspecto-calcul.css" />
+  </head>
+  <body>
+    <div>
+      <h1 id="tutulo">
+        Tu calculadora en linea
+      </h1>
+      <br />
+      <br />
+    </div>
+
+    <div class="calculadora">
+      <tr>
+        <td colspan="4"><span id="resultado"></span></td>
+      </tr>
+
+      <div>
+        <button class=" myButton " id="n7" onclick="n70()">7</button>
+        <button class=" myButton " id="n8" onclick="n80()">8</button>
+        <button class=" myButton " id="n9" onclick="n90()">9</button>
+        <button class=" myButton " id="div" onclick="div0()">/</button>
+      </div>
+      <div>
+        <button class=" myButton " id="n4" onclick="n40()">4</button>
+        <button class="myButton" id="n5" onclick="n50()">5</button>
+        <button class="myButton" id="n6" onclick="n60()">6</button>
+        <button class="myButton" id="x" onclick="mult0()">x</button>
+      </div>
+      <div>
+        <button class="myButton" id="n1" onclick="n10()">1</button>
+        <button class=" myButton " id="n2" onclick="n20()">2</button>
+        <button class=" myButton " id="n3" onclick="n30()">3</button>
+        <button class=" myButton " id="rest" onclick="rest0()">-</button>
+      </div>
+      <div>
+        <button class=" myButton " id="n0" onclick="n00()">0</button>
+        <button class=" myButton " id="np" onclick="np0()">.</button>
+        <button class=" myButton " id="sum" onclick="sum0()">+</button>
+      </div>
+      <div>
+        <button class=" myButton " id="C" onclick="borrar()">C</button>
+        <button class="myButton" id="igual" onclick="igual0()">=</button>
+      </div>
+    </div>
+
+    <script src="./scripts/calculadora.js"></script>
+  </body>
+</html>
